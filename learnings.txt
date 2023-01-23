@@ -1,3 +1,11 @@
 Learning Point 1:
 
 Ran into issue with pulling the json data when Mongo Database was named "LEEHIS_API_DB". Calls returned with empty json data but created a new database, "leehis-api-db" and the movies collection was in smaller case which solved the issue. 
+
+REST API has multiple layers:
+Controller: Only concerns itself with getting a request and returning a ResponseEntity. Calls the methods in the service and returns itself
+Service: has most of the business logic. 
+Repository: Data access layer of the API. Communicates with the database and returns the data. Has mongo repo implementation.
+
+
+PathVariable makes it know that the information passed in the path variable will be used in the string 
