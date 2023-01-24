@@ -15,3 +15,7 @@ Dynamic queries (ex: findMovieByImdbId) can be formed by using UNIQUE property n
 Do NOT forget your annotations
 
 Templates: sometimes a repository can't handle the complex operation or can't be implemented in an optimal fashion. here we use templates to form up new dynamic queries and do the job in the database without using the repository. (ex: createReview business logic)
+
+When deploying to Azure through github, I kept receiving a "Cannot find source control token with name github" error but this was solved when I deployed with local git repo and then retried the ci/cd github connection. 
+
+Also ran into an error during the build phase on azure but that was because it failed the tests in the project. Solved it by deleting the test files.
