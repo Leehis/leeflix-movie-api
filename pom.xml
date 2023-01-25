@@ -63,6 +63,11 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>azure-spring-apps-maven-plugin</artifactId>
+    <version>[Use the latest version above]</version>
+</plugin>
 		</plugins>
 	</build>
 
