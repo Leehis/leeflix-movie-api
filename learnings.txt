@@ -22,3 +22,5 @@ Also ran into an error during the build phase on azure but that was because it f
 
 
 REMEMBER TO CREATE NEW .ENV WITH THE CREDENTIALS LMAO!!!
+
+Changed reviewIds to reviews as it was calling reviewIds on the frontend rather than reviews. Also changed the review service logic to push it to reviews and not reviewIds
