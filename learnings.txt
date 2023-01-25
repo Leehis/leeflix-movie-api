@@ -15,3 +15,6 @@ Dynamic queries (ex: findMovieByImdbId) can be formed by using UNIQUE property n
 Do NOT forget your annotations
 
 Templates: sometimes a repository can't handle the complex operation or can't be implemented in an optimal fashion. here we use templates to form up new dynamic queries and do the job in the database without using the repository. (ex: createReview business logic)
+
+
+REMEMBER TO CREATE NEW .ENV WITH THE CREDENTIALS LMAO!!!
